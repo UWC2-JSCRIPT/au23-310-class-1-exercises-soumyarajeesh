@@ -1,8 +1,10 @@
 /**
  * MATH
  */
-const SMALL_PIZZA_DIAMETER =13
-const LARGE_PIZZA_DIAMETER =17
+const SMALL_PIZZA_DIAMETER =13;
+const LARGE_PIZZA_DIAMETER =17;
+const SMALL_PIZZA_PRICE =16.99;
+const LARGE_PIZZA_PRICE =19.99;
 // 1. Pagliacci charges $16.99 for a 13” pizza and $19.99 for a 17” pizza.
 // What is the area for each of these pizzas?
 // (radius would be the listed size - i.e. 13" - divided by 2)
@@ -11,7 +13,10 @@ const largePizzaArea = Math.PI * ((LARGE_PIZZA_DIAMETER/2)** 2)
 console.log(smallPizzaArea);
 console.log(largePizzaArea);
 // 2. What is the cost per square inch of each pizza?
-
+const smallPizzaCostPerSquareInch = SMALL_PIZZA_PRICE/smallPizzaArea
+const largePizzaCostPerSquareInch = LARGE_PIZZA_PRICE/largePizzaArea
+console.log(smallPizzaCostPerSquareInch);
+console.log(largePizzaCostPerSquareInch);
 
 // 3. Using the Math object, put together a code snippet
 // that allows you to draw a random card with a value

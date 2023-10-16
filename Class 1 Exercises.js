@@ -13,8 +13,8 @@ const largePizzaArea = Math.PI * ((LARGE_PIZZA_DIAMETER/2)** 2)
 console.log(smallPizzaArea);
 console.log(largePizzaArea);
 // 2. What is the cost per square inch of each pizza?
-const smallPizzaCostPerSquareInch = SMALL_PIZZA_PRICE/smallPizzaArea
-const largePizzaCostPerSquareInch = LARGE_PIZZA_PRICE/largePizzaArea
+const smallPizzaCostPerSquareInch = SMALL_PIZZA_PRICE/smallPizzaArea;
+const largePizzaCostPerSquareInch = LARGE_PIZZA_PRICE/largePizzaArea;
 console.log(smallPizzaCostPerSquareInch);
 console.log(largePizzaCostPerSquareInch);
 
@@ -30,7 +30,7 @@ const HIGHEST_CARD = 13;
 // 4. Draw 3 cards and use Math to determine the highest
 // card
 const card1 = Math.ceil(Math.random() * HIGHEST_CARD);
-const card2 = Math.ceil(math.random() * HIGHEST_CARD);
+const card2 = Math.ceil(Math.random() * HIGHEST_CARD);
 const card3 = Math.ceil(Math.random() * HIGHEST_CARD);
 
 const highestCard = Math.max(card1,card2,card3);

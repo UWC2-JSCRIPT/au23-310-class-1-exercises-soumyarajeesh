@@ -13,8 +13,8 @@ const LARGE_PIZZA_DIAMETER =17;
 const SMALL_PIZZA_PRICE =16.99;
 const LARGE_PIZZA_PRICE =19.99;
 
-const smallPizzaArea = Math.PI * ((SMALL_PIZZA_DIAMETER/2)** 2) //MATH.pow((13/2),2)
-const largePizzaArea = Math.PI * ((LARGE_PIZZA_DIAMETER/2)** 2)
+const smallPizzaArea = Math.PI * ((SMALL_PIZZA_DIAMETER/2)** 2) //MATH.pow((13/2),2);
+const largePizzaArea = Math.PI * ((LARGE_PIZZA_DIAMETER/2)** 2);
 
 console.log(list1);
 console.log(areaofpizza);
@@ -41,7 +41,7 @@ const HIGHEST_CARD = 13;
 const card = Math.ceil(Math.random() * HIGHEST_CARD); 
 
 console.log(randomCard);
-console.log("Result: Radmon card between 1 and 13 is:", card)
+console.log("Result: Radmon card between 1 and 13 is:", card);
 
 // 4. Draw 3 cards and use Math to determine the highest
 // card
@@ -68,12 +68,12 @@ console.log("Highest Card is: " ,highestCard);
 // this information to create a formatted address block
 // that could be printed onto an envelope.
 
-let list2 = "****** Strings / Addresses *******"
+let list2 = "****** Strings / Addresses *******";
 let addressblock = "// Q1. Create variables for firstName, lastName, streetAddress, city, state, and zipCode";
 let firstName = "Soumya";
 let lastName = "Rajeesh";
 let fullName = firstName + ' ' +lastName ;
-let StreetAddress = "17825  38th Drive SouthEast";
+let StreetAddress = "17825 38th Drive SouthEast";
 let city = "Bothell";
 let state = "WA";
 let zipCode = "98012";
@@ -81,9 +81,11 @@ let Address = city + "," + " " + state + " " + zipCode;
 
 console.log(list2);
 console.log(addressblock);
+console.log("Result: The formatted address block is:");
 console.log(fullName);
 console.log(StreetAddress);
-console.log("Result: The formatted address block is",Address);
+console.log(Address)
+
 
 // 2. You are given a string in this format:
 // firstName lastName(assume no spaces in either)
@@ -97,7 +99,7 @@ let extractfirstname = "// Q2. Extract the first name from this string 'Soumya R
 let fullName1 = "Soumya Rajeesh";
 firstName = fullName1.slice(0,6);
 console.log (extractfirstname);
-console.log("Result: The extracted Fist Name is",firstName);
+console.log("Result: The extracted Fist Name is:",firstName);
 
 /**
  * FIND THE MIDDLE DATE
@@ -109,11 +111,11 @@ console.log("Result: The extracted Fist Name is",firstName);
 
 // Starting hint:
 let list3 = "***** Date *****";
-let middledateandtime = "// Q1. Find the middle date(and time) between the following two dates 1/1/2020 00:00:00 and 4/1/2020 00:00:00"
+let middledateandtime = "// Q1. Find the middle date(and time) between the following two dates 1/1/2020 00:00:00 and 4/1/2020 00:00:00";
 const startDate =new Date(2020,0,1);
 const endDate = new Date(2020,3,1);
 const midDate = new Date((startDate.getTime()+endDate.getTime())/2);
 
 console.log(list3);
 console.log(middledateandtime);
-console.log("Result: The middle date and time is", midDate);
+console.log("Result: The middle date and time is:", midDate);

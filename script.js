@@ -1,0 +1,1 @@
+console.log('Javascript from an imported file!');
